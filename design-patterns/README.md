@@ -6,7 +6,7 @@ Este directorio contiene la documentación y ejemplos prácticos de los 22 patro
 
 Estos patrones se centran en la creación de objetos, proporcionando mecanismos que incrementan la flexibilidad y la reutilización del código.
 
-* **Factory Method:** Define una interfaz para crear un objeto, pero deja que las subclases decidan qué clase instanciar. Permite que una clase delegue la creación de objetos a sus subclases.
+* **[Factory Method](https://github.com/SebastianSoftwareDeveloper/docs/tree/main/design-patterns/factory-method):** Define una interfaz para crear un objeto, pero deja que las subclases decidan qué clase instanciar. Permite que una clase delegue la creación de objetos a sus subclases.
 * **Abstract Factory:** Proporciona una interfaz para crear familias de objetos relacionados o dependientes sin especificar sus clases concretas.
 * **Builder:** Permite construir objetos complejos paso a paso. El patrón permite producir diferentes tipos y representaciones de un objeto utilizando el mismo código de construcción.
 * **Prototype:** Permite copiar objetos existentes sin hacer que tu código dependa de sus clases concretas.
@@ -42,4 +42,6 @@ Estos patrones se ocupan de los algoritmos y la asignación de responsabilidades
 ---
 
 * **Fuente de referencia:** [Refactoring.Guru - El catálogo de patrones de diseño](https://refactoring.guru/es/design-patterns/catalog)
-* **IA utilizada:** Gemini 2.5 Flash.
+* **IA**
+  * **Name**: Gemini 2.5 Flash.
+  * **Prompt**: Necesito que me explique el patrón [patron-name] para [descripción] aplicado en [lang-name], primero explicando que resuelve, luego el código lo mas simple posible para entender el concepto y otro código aparte mas avanzado y por último un resumen al respecto.
