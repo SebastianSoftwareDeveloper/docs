@@ -7,7 +7,7 @@ Este directorio contiene la documentación y ejemplos prácticos de los 22 patro
 Estos patrones se centran en la creación de objetos, proporcionando mecanismos que incrementan la flexibilidad y la reutilización del código.
 
 * **[Factory Method](https://github.com/SebastianSoftwareDeveloper/docs/tree/main/design-patterns/factory-method):** Define una interfaz para crear un objeto, pero deja que las subclases decidan qué clase instanciar. Permite que una clase delegue la creación de objetos a sus subclases.
-* **Abstract Factory:** Proporciona una interfaz para crear familias de objetos relacionados o dependientes sin especificar sus clases concretas.
+* **[Abstract Factory](https://github.com/SebastianSoftwareDeveloper/docs/tree/main/design-patterns/abstract-factory):** Proporciona una interfaz para crear familias de objetos relacionados o dependientes sin especificar sus clases concretas.
 * **Builder:** Permite construir objetos complejos paso a paso. El patrón permite producir diferentes tipos y representaciones de un objeto utilizando el mismo código de construcción.
 * **Prototype:** Permite copiar objetos existentes sin hacer que tu código dependa de sus clases concretas.
 * **Singleton:** Garantiza que una clase tenga solo una instancia, y proporciona un punto de acceso global a ella.
