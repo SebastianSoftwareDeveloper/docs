@@ -44,4 +44,5 @@ Estos patrones se ocupan de los algoritmos y la asignación de responsabilidades
 * **Fuente de referencia:** [Refactoring.Guru - El catálogo de patrones de diseño](https://refactoring.guru/es/design-patterns/catalog)
 * **IA**
   * **Name**: Gemini 2.5 Flash.
-  * **Prompt**: Necesito que me explique el patrón [patron-name] para [descripción] aplicado en [lang-name], primero explicando que resuelve, luego el código lo mas simple posible para entender el concepto y otro código aparte mas avanzado y por último un resumen al respecto.
+  * **Prompt**: "Necesito que me explique el patrón [patron-name] para [descripción] aplicado en [lang-name], primero explicando que resuelve, luego el código lo mas simple posible para entender el concepto y otro código aparte mas avanzado y por último un resumen al respecto."
+    El prompt utilizado de cada patrón se puede ver al final del mismo, pero la estructura es la misma que se especifica anteriormente.
