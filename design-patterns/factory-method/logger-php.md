@@ -224,3 +224,7 @@ $loggerFactory->performLogging("Error: Conexión fallida al microservicio X.");
 ### Resumen al Respecto
 
 El **Factory Method** en el contexto de un sistema de registro te permite **producir diferentes tipos de loggers sin que tu código principal (el cliente) tenga que conocer los detalles de su creación**. La lógica de instanciación se delega a **fábricas especializadas** (`FileLoggerFactory`, `ConsoleLoggerFactory`, `DatabaseLoggerFactory`), las cuales saben cómo crear su logger correspondiente. Tu aplicación solo interactúa con una **interfaz común (`Logger`)** y le pide a la fábrica el tipo de logger que necesita. Esto resulta en un diseño de software **más flexible, extensible y con bajo acoplamiento**, haciendo que sea mucho más fácil añadir o cambiar los mecanismos de registro en el futuro sin modificar el código que ya funciona.
+
+### Prompt
+
+Necesito que me explique el patrón factory method para un sistema de registro (logger) aplicado en php, primero explicando que resuelve, luego el código lo mas simple posible para entender el concepto y otro código aparte mas avanzado y por último un resumen al respecto.
