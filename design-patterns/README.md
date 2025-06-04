@@ -10,7 +10,7 @@ Estos patrones se centran en la creación de objetos, proporcionando mecanismos 
 * **[Abstract Factory](https://github.com/SebastianSoftwareDeveloper/docs/tree/main/design-patterns/abstract-factory):** Proporciona una interfaz para crear familias de objetos relacionados o dependientes sin especificar sus clases concretas.
 * **[Builder](https://github.com/SebastianSoftwareDeveloper/docs/tree/main/design-patterns/builder):** Permite construir objetos complejos paso a paso. El patrón permite producir diferentes tipos y representaciones de un objeto utilizando el mismo código de construcción.
 * **[Prototype](https://github.com/SebastianSoftwareDeveloper/docs/tree/main/design-patterns/prototype):** Permite copiar objetos existentes sin hacer que tu código dependa de sus clases concretas.
-* **Singleton:** Garantiza que una clase tenga solo una instancia, y proporciona un punto de acceso global a ella.
+* **[Singleton](https://github.com/SebastianSoftwareDeveloper/docs/tree/main/design-patterns/singleton):** Garantiza que una clase tenga solo una instancia, y proporciona un punto de acceso global a ella.
 
 ## Patrones Estructurales
 
